@@ -1,0 +1,121 @@
+{
+    "claims": [
+      {
+        "claimId": "CLM123456",
+        "claimant": {
+          "name": "John Doe",
+          "contact": {
+            "email": "john.doe@example.com",
+            "phone": "+1 (555) 123-4567",
+            "ContractType" :"Auto Insurance"
+          }
+        },
+        "lossDetails": {
+          "date": "2023-01-15",
+          "location": "123 Main St, Cityville"
+        },
+        "claimAmount": 5000.00,
+        "claimType": "Car Emergency Assistance",
+        "status": "Pending",
+        "documents": [
+          {
+            "documentType": "LicenceDriver",
+            "documentUrl": "https://azcapitoltimes.com/files/2018/02/azdriverlicense-standard-WEB-620x330.jpg"
+          },
+          {
+            "documentType": "CarPhoto",
+            "documentUrl": "https://img.freepik.com/photos-premium/accident-voiture-moderne-impliquant-deux-voitures-route-thailande_30478-2535.jpg"
+          },
+          {
+            "documentType": "Police Report",
+            "documentUrl": "https://www.signnow.com/preview/28/549/28549197.png"
+          }
+        ],
+        "comments": [
+          {
+            "user": "claimsOfficer1",
+            "timestamp": "2023-01-20T08:30:00Z",
+            "text": "Claim received and under review."
+          }
+        ]
+      },
+      {
+        "claimId": "CLM123489",
+        "claimant": {
+          "name": "David Paul",
+          "contact": {
+            "email": "David.Paul@example.com",
+            "phone": "+1 (555) 123-4567",
+            "ContractType" :"Auto Insurance"
+          }
+        },
+        "lossDetails": {
+          "date": "2023-01-15",
+          "location": "123 Main St, Cityville"
+        },
+        "claimAmount": 500.00,
+        "claimType": "Car Emergency Assistance",
+        "status": "Pending",
+        "documents": [
+          {
+            "documentType": "LicenceDriver",
+            "documentUrl": "https://azcapitoltimes.com/files/2018/02/azdriverlicense-standard-WEB-620x330.jpg"
+          },
+          {
+            "documentType": "CarPhoto",
+            "documentUrl": "https://img.freepik.com/photos-premium/accident-voiture-moderne-impliquant-deux-voitures-route-thailande_30478-2535.jpg"
+          },
+          {
+            "documentType": "Police Report",
+            "documentUrl": "https://www.signnow.com/preview/28/549/28549197.png"
+          }
+        ],
+        "comments": [
+          {
+            "user": "claimsOfficer1",
+            "timestamp": "2023-01-20T08:30:00Z",
+            "text": "Claim received and under review."
+          }
+        ]
+      },
+      {
+        "claimId": "CLM345678",
+        "claimant": {
+          "name": "Jane Porter",
+          "contact": {
+            "email": "jane.porter@example.com",
+            "phone": "+1 (555) 123-4567",
+            "ContractType" :"Auto Insurance"
+          }
+        },
+        "lossDetails": {
+          "date": "2023-01-15",
+          "location": "123 Main St, Cityville"
+        },
+        "claimAmount": 2700.00,
+        "claimType": "Car Emergency Assistance",
+        "status": "Pending",
+        "documents": [
+          {
+            "documentType": "LicenceDriver",
+            "documentUrl": "https://azcapitoltimes.com/files/2018/02/azdriverlicense-standard-WEB-620x330.jpg"
+          },
+          {
+            "documentType": "CarPhoto",
+            "documentUrl": "https://img.freepik.com/photos-premium/accident-voiture-moderne-impliquant-deux-voitures-route-thailande_30478-2535.jpg"
+          },
+          {
+            "documentType": "Police Report",
+            "documentUrl": "https://www.signnow.com/preview/28/549/28549197.png"
+          }
+        ],
+        "comments": [
+          {
+            "user": "claimsOfficer1",
+            "timestamp": "2023-01-20T08:30:00Z",
+            "text": "Claim received and under review."
+          }
+        ]
+      }
+    ]
+}

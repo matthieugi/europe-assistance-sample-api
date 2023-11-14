@@ -1,0 +1,88 @@
+{
+    "ServicesProviders": [
+        {
+            "name": "SwiftAssist",
+            "location": "Saint Denis, 93000",
+            "SIRET": "Cityville, USA",
+            "SIREN": "Cityville, USA",
+            "PhoneNumber": "+33 1 48 09 80 00",
+            "Email": "Cityville, USA",
+            "ID": "1001",
+            "services": [
+                {
+                    "category": "Car Emergency Assistance",
+                    "subServices": [
+                        "24/7 Helpline",
+                        "Medical Assistance",
+                        "Roadside Assistance",
+                        "Legal Assistance"
+                    ]
+                },
+                {
+                    "category": "Travel Support",
+                    "subServices": [
+                        "Trip Planning",
+                        "Lost Document Assistance",
+                        "Emergency Repatriation"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AutoGuard",
+            "location": "Paris, 75000",
+            "SIRET": "Paris, France",
+            "SIREN": "Paris, France",
+            "PhoneNumber": "+33 1 23 45 67 89",
+            "Email": "contact@autoguard.fr",
+            "ID": "1002",
+            "services": [
+                {
+                    "category": "Car Insurance",
+                    "subServices": [
+                        "Roadside Assistance",
+                        "Legal Assistance",
+                        "Theft Assistance",
+                        "Breakdown Assistance"
+                    ]
+                },
+                {
+                    "category": "Travel Support",
+                    "subServices": [
+                        "Lost Document Assistance",
+                        "Emergency Repatriation",
+                        "Trip Planning"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CarSecure",
+            "location": "Lyon, 69000",
+            "SIRET": "Lyon, France",
+            "SIREN": "Lyon, France",
+            "PhoneNumber": "+33 4 78 00 00 00",
+            "Email": "contact@carsecure.fr",
+            "ID": "1003",
+            "services": [
+                {
+                    "category": "Car Emergency Assistance",
+                    "subServices": [
+                        "Comprehensive Coverage",
+                        "Collision Coverage",
+                        "Uninsured Motorist Coverage",
+                        "Underinsured Motorist Coverage"
+                    ]
+                },
+                {
+                    "category": "Travel Support",
+                    "subServices": [
+                        "Trip Interruption Coverage",
+                        "Travel Medical Coverage",
+                        "Emergency Evacuation Coverage"
+                    ]
+                }
+            ]
+        }
+    ]
+}
