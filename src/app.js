@@ -3,6 +3,8 @@ import express from 'express';
 import claims from '../data/claims.json' assert {type: 'json'};
 import providers from '../data/providers.json' assert {type: 'json'};
 
+const port = process.env.SERVER_PORT || 8080;
+
 const app = express();
 app.use(express.json())
 
@@ -29,6 +31,6 @@ app.get('/provider', (req, res) => {
   res.json(providers);
 });
 
-app.listen(3000, () => {
-  console.log('App is listening on port 3000');
+app.listen(port, () => {
+  console.log(`App is listening on port ${port}`);
 });
